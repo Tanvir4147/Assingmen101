@@ -43,10 +43,10 @@
 .Bangladesh{
     font-size: 24px;
      margin-bottom: 30px;
-    color: rgb(203, 202, 202);
+    color:#605f5f;
 }
 .para-size{
-    margin-bottom:20px ;
+    margin-bottom:50px ;
     font-size: 56px;
     font-weight: 800;
 }
@@ -58,7 +58,8 @@
     color: rgb(252, 253, 252);
     background-color: green;
     border-radius: 5px;
-    margin-bottom:50px ;
+    margin-top: 50px;
+    
 }
 .button-style:hover{
     color: black;
@@ -78,7 +79,7 @@
 }
 .boxs{
     width: 610px;
-    height: 350px;
+    height: 300px;
     padding: 24px;
     background-color:rgb(174, 207, 234) ;
     border-radius: 24px;
@@ -292,6 +293,10 @@ background-color: rgb(237, 212, 179);
     box-shadow:20px 20px 60px #bebebe,
     -20px -20px 60px #ffffff; ;
 }
+.mani-box2:hover{
+    cursor: pointer;
+    background-color: rgb(179, 131, 18);
+} 
 .mani-box1:hover{
     cursor: pointer;
    background-color: rgb(90, 18, 179);
@@ -325,6 +330,11 @@ background-color: rgb(237, 212, 179);
     color: aliceblue;
     background-color: green;
     border-radius: 5px;
+}
+.Donate-btn:hover{
+    color: #000;
+    cursor: pointer;
+   background-color: cyan;
 }
 /* Subscribe Newsletter */
 .News-letter{
@@ -369,3 +379,22 @@ background-color: rgb(237, 212, 179);
     border-radius: 5px 0px  0px 5px;
     
 }
+/* footer part */
+.footer-part{
+     width: 95%;
+     height: 140px;
+     margin: 0px auto;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: -20px 20px 60px #afacac,
+    20px -20px 60px #ede8e8;;
+    
+}
+
+.footer-im1{
+    display: flex;
+    
+}
+   
+    
